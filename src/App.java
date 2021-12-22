@@ -6,5 +6,6 @@ public class App {
 
         //We can call this static method without instantiating the Calculator class
         Calculator.printHelloWorld();
+        Calculator.dateToday();
     }
 }

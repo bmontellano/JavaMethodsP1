@@ -1,5 +1,7 @@
 package methods;
 
+import java.util.Date;
+
 public class Calculator {
 
     public double cubedRoot(double x) {
@@ -29,6 +31,11 @@ public class Calculator {
 
     public static void printHelloWorld() {
         System.out.println("Hello World!!");
+    }
+
+    public static void dateToday(){
+        Date newDate = new Date();
+        System.out.println(newDate);
     }
 
 }

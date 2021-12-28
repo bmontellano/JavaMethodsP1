@@ -1,5 +1,7 @@
 package methods;
 
+//Don't be lazy, use logger
+
 import java.util.Date;
 
 public class Calculator {
@@ -17,6 +19,14 @@ public class Calculator {
     public double addThese(double x, double y){
         return x + y;
     }
+
+    /**
+     * Overloading can occur in 3 different ways
+     * differences in the following:
+     * 1. number of params
+     * 2. types of params
+     * 3. order of params
+     */
 
     /**
      * OVERLOAD

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import methods.ArrayMachine;
 import methods.Calculator;
 import methods.Hasher;
+import methods.Looper;
 
 public class App {
     public static void main(String[] args) {   
@@ -22,7 +23,8 @@ public class App {
         newArrayMachine.demoLinkedList();
         */
         //Hasher.demoHashMap();
-        Hasher.demoHashSet();
+        //Hasher.demoHashSet();
+        Looper.loopDoWhileFun();
 
     }
 }

@@ -3,6 +3,7 @@ import java.util.Arrays;
 
 import methods.ArrayMachine;
 import methods.Calculator;
+import methods.DecisionEngine;
 import methods.Hasher;
 import methods.Looper;
 
@@ -24,7 +25,10 @@ public class App {
         */
         //Hasher.demoHashMap();
         //Hasher.demoHashSet();
-        Looper.loopDoWhileFun();
+        //Looper.loopDoWhileFun();
+        //DecisionEngine.ifStatementDemo();
+        //DecisionEngine.switchStatementDemo();
+        DecisionEngine.checkStringEqualityDemo();
 
     }
 }

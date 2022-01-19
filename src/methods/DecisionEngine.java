@@ -2,8 +2,6 @@ package methods;
 
 import java.util.Scanner;
 
-import javax.swing.text.DefaultCaret;
-
 public class DecisionEngine {
     static Scanner input = new Scanner(System.in);
     

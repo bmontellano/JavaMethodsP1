@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import classes.DocumentAbstract;
 import classes.HTMLDocument;
@@ -60,7 +62,7 @@ public class App {
         OuterInner.Inner in = out.getInner("Hello World!");
         System.out.println(in);
         */
-        
+        /*
         JavaMathClassOne exampleOne = new JavaMathClassOne();
         JavaMathClassOne exampleTwo = new JavaMathClassOne(-100, 55);
         exampleOne.findMin();
@@ -74,6 +76,29 @@ public class App {
         exampleTwo.findDiffernce();
         exampleTwo.findSum();
         exampleOne.findProduct();
-        
+        */
+        /*Use Random class
+        Random newRandom = new Random();
+        double[] doubles = newRandom.doubles(5).toArray();
+        System.out.println(Arrays.toString(doubles));
+        System.out.println(newRandom.nextBoolean());
+        System.out.println(newRandom.nextInt());
+        System.out.println(newRandom.nextDouble());
+        */
+        /*Using Math.random()
+        System.out.println("random int: " + Math.round(Math.random() * Integer.MAX_VALUE) * (Math.rint(Math.random()) == 1 ? 1: -1));
+        String r = "" + (Math.ceil(Math.random() * 5));
+        r = r.substring(0,1);
+        System.out.println("random 1-5: " + r);
+        */
+
+        /*Using ThreadLocalRandom
+        System.out.println("Random boolean: " + ThreadLocalRandom.current().nextBoolean());
+        System.out.println("Random double: " + ThreadLocalRandom.current().nextDouble());
+        System.out.println("Random integer, either negative or positive: " + ThreadLocalRandom.current().nextInt());
+        System.out.println("Random integer, 1-10: " + (ThreadLocalRandom.current().nextInt(10) + 1));
+        */
+
+
     }
 }

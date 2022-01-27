@@ -8,6 +8,7 @@ import classes.HelloYou;
 import classes.LogFile;
 import classes.OuterInner;
 import classes.TextDocument;
+import math.JavaMathClassOne;
 import methods.ArrayMachine;
 import methods.Calculator;
 import methods.DecisionEngine;
@@ -52,10 +53,27 @@ public class App {
        txtDoc.setContents("This is in the text document");
        txtDoc.displayContents();
         */
+       /* Implement Outer Inner classes
         OuterInner out = new OuterInner();
         System.out.println(out.getInnerMessage("Hi, Brian!"));
 
         OuterInner.Inner in = out.getInner("Hello World!");
         System.out.println(in);
+        */
+        
+        JavaMathClassOne exampleOne = new JavaMathClassOne();
+        JavaMathClassOne exampleTwo = new JavaMathClassOne(-100, 55);
+        exampleOne.findMin();
+        exampleTwo.findAbsoluteValues();
+        exampleOne.roundUp(100.49999);
+        exampleOne.roundUp(100.50001);
+        exampleOne.findSquareRoot();
+        exampleTwo.findSquareRoot(); //The first number is negative and therefore sqrt of neg will return NaN (Not a Number)
+        exampleOne.eulersNumberToThePowerOf(3);
+        exampleOne.eulersNumberToThePowerOfxMinusOne(3);
+        exampleTwo.findDiffernce();
+        exampleTwo.findSum();
+        exampleOne.findProduct();
+        
     }
 }
